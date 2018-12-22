@@ -43,7 +43,6 @@ class SeedRolesAndPermissionsData extends Migration
      */
     public function down()
     {
-        //
         // 清除缓存
         app()['cache']->forget('spatie.permission.cache');
 
